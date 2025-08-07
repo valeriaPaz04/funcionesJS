@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funciones en JS</title>
+  <link rel="icon" href="../Diseño/imgs/funcion.png" type="image/x-icon">
+  <link rel="stylesheet" href="../Diseño/alternate.css">
+</head>
+<body>
+  <header>
+    <a href="../Diseño/index.html"><img src="../Diseño/imgs/funcion.png" alt="Logo" class="logo"></a>
+    <nav>
+        <ul>
+            <li><a href="../Diseño/index.html">Inicio</a></li>
+            <li><a href="../Funciones/index.html">Funciones</a></li>
+            <li><a href="../Funcion_Flecha/Funcion_Flecha.html">Funciones Flecha</a></li>
+            <li><a href="../Callback/callback.html">Callback</a></li>
+            <li><a href="../Promesas/index.html">Promesas</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <section class="form-container" style="display: flex; flex-direction: column; gap: 20px;">
+      <h2>Validar Nombre con Promesa</h2>
+      <label for="nombre">Ingresa tu nombre:</label>
+      <input type="text" id="nombre" placeholder="Escribe tu nombre aquí">
+      <button onclick="validarNombre()">Validar</button>
+
+      <p id="mensaje">Esperando validación...</p>
+    </section>
+
+    <section class="form-container">
+      <h2>Verificar Edad con Promesa 🧑‍⚖️</h2>
+      <form action="">
+        <label for="">Con Espera  Espera 1.5 segundos</label>
+        <input type="number" id="edadInput" placeholder="Ingresa tu edad" />
+        <button id="btnVerificar" type="button">Verificar Edad</button>
+      </form>
+      <p id="resultadoEdad"></p>
+    </section>
+
+    <section class="form-container">
+      <h2>Sumar dos numeros</h2>
+      <form action="">
+        <label for="">Numero:</label>
+        <input type="number" placeholder="Ingrese un Numero" id="n1" required>
+        <label for="">Numero:</label>
+        <input type="number" placeholder="Ingrese un Numero" id="n2" required>
+        <button type="button" onclick="sumar()">Sumar </button>
+        <p id="resultadoSuma"></p>
+      </form>
+    </section>
+
+    <section class="form-container">
+      <h2>Usuarios desde API</h2>
+      <form action="">
+        <label for="">Presionar Boton para cargar Datos.</label>
+        <button id="btnCargar" type="button">Cargar Usuarios</button>
+      </form>
+      <ul id="listaUsuarios"></ul>
+    </section>
+  </div>
+  <footer>
+      <p>© 2025 Valeria. Todos los derechos reservados.</p>
+      <p>Diseñado por Valeria Paz Arana</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>

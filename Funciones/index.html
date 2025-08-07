@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones de JS</title>
+    <link rel="icon" href="../Diseño/imgs/funcion.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Diseño/alternate.css">
+</head>
+<body>
+    <header>
+        <a href="../Diseño/index.html"><img src="../Diseño/imgs/funcion.png" alt="Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../Diseño/index.html">Inicio</a></li>
+                <li><a href="../Funciones/index.html">Funciones</a></li>
+                <li><a href="../Funcion_Flecha/Funcion_Flecha.html">Funciones Flecha</a></li>
+                <li><a href="../Callback/callback.html">Callback</a></li>
+                <li><a href="../Promesas/index.html">Promesas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+        <section class="form-container">
+            <h2>Mostrar Texto Ingresado</h2>
+            <form>
+                <input type="text" id="miInput" placeholder="Escribe algo aqui...">
+                <button type="button" id="boton" onclick="saludar()">Mostrar Resultado</button>
+                <p id="resultado"></p>
+            </form>
+        </section>
+
+        <section class="form-container">
+            <h2>Calculadora</h2>
+            <form action="">
+                <input type="number" id="n1" placeholder="Ingresa un numero">
+                <input type="number" id="n2" placeholder="Ingresa un numero">
+                <select name="" id="operacion" style="padding: 5px;">
+                    <option value="sumar">Sumar</option>
+                    <option value="restar">Restar</option>
+                    <option value="multiplicar">Multiplicar</option>
+                    <option value="dividir">Dividir</option>
+                </select>
+                <button type="button" onclick="calcular()">Calcular</button>
+                <p id="resultadoCalculadora"></p>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 Valeria. Todos los derechos reservados.</p>
+        <p>Diseñado por Valeria Paz Arana</p>
+    </footer>
+    <script src="Funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funciones en JS</title>
+  <link rel="icon" href="../Diseño/imgs/funcion.png" type="image/x-icon">
+  <link rel="stylesheet" href="../Diseño/alternate.css">
+</head>
+<body>
+  <header>
+    <a href="../Diseño/index.html"><img src="../Diseño/imgs/funcion.png" alt="Logo" class="logo"></a>
+    <nav>
+        <ul>
+            <li><a href="../Diseño/index.html">Inicio</a></li>
+            <li><a href="../Funciones/index.html">Funciones</a></li>
+            <li><a href="../Funcion_Flecha/Funcion_Flecha.html">Funciones Flecha</a></li>
+            <li><a href="../Callback/callback.html">Callback</a></li>
+            <li><a href="../Promesas/index.html">Promesas</a></li>
+        </ul>
+    </nav>
+  </header>
+  <div class="main-content">
+  <!-- Ejercicio 1: Saludar con nombre ingresado -->
+    <section class="form-container">
+      <h2>Saludar 👋🏽</h2>
+      <form action="">
+        <label for="miInput">Nombre:</label>
+        <input type="text" id="miInput" placeholder="Ingresar nombre..." required />
+        <button type="button" id="miBoton">Mostrar Resultado</button>
+        <p id="resultado"></p>
+      </form>
+    </section>
+
+    <!-- Ejercicio 2: Sumar dos números -->
+    <section class="form-container">
+      <h2>Sumar 🧮</h2>
+      <form action="">
+        <label for="n1">Número:</label>
+        <input type="number" id="n1" placeholder="Ingrese un número" required />
+
+        <label for="n2">Número:</label>
+        <input type="number" id="n2" placeholder="Ingrese otro número" required />
+
+        <button type="button" id="botonSumar">Sumar</button>
+        <p id="resultadoSuma"></p>
+      </form>
+    </section>
+
+    <!-- Ejercicio 3: Calcular total de una venta -->
+    <section class="form-container">
+      <h2>Calcular Venta 💸</h2>
+      <form action="">
+        <label for="producto">Nombre del producto:</label>
+        <input type="text" id="producto" placeholder="Nombre del producto" required />
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" placeholder="Cantidad" required />
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" placeholder="Precio" required />
+
+        <label for="resultado_Compra">Total a pagar:</label>
+        <input type="text" id="resultado_Compra" placeholder="Total a pagar:" disabled />
+
+        <button type="button" id="botonCompra">Calcular Venta</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+      <p>© 2025 Valeria. Todos los derechos reservados.</p>
+      <p>Diseñado por Valeria Paz Arana</p>
+  </footer>
+  <!-- Script JS -->
+  <script src="scripts.js"></script>
+</body>
+</html>

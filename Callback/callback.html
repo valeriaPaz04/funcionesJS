@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones en JS</title>
+    <link rel="icon" href="../Diseño/imgs/funcion.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Diseño/alternate.css">
+</head>
+<body>
+    <header>
+        <a href="../Diseño/index.html"><img src="../Diseño/imgs/funcion.png" alt="Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../Diseño/index.html">Inicio</a></li>
+                <li><a href="../Funciones/index.html">Funciones</a></li>
+                <li><a href="../Funcion_Flecha/Funcion_Flecha.html">Funciones Flecha</a></li>
+                <li><a href="../Callback/callback.html">Callback</a></li>
+                <li><a href="../Promesas/index.html">Promesas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <section class="form-container">
+            <h2>Calcular Compra IVA:</h2>
+            <form action="">
+                <label for="">Producto:</label>
+                <input type="text" id="producto" required>
+
+                <label for="">Precio:</label>
+                <input type="number" id="precio" required>
+
+                <label for="">Cantidad:</label>
+                <input type="number" id="cantidad" required>
+
+                <label for="">IVA:</label>
+                <input type="text" readonly id="iva">
+
+                <label for="">Total:</label>
+                <input type="text" readonly id="total">
+
+                <button type="button" id="calcular">Calcular</button>
+            </form>
+        </section>
+
+        <section class="form-container">
+            <h2>Calcular Edad:</h2>
+            <form action="">
+                <label for="">Año de Nacimiento:</label>
+                <input type="number" id="año">
+                <button type="button" id="edad">Calcular Edad</button>
+                <p id="edadPersona">Edad: </p>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 Valeria. Todos los derechos reservados.</p>
+        <p>Diseñado por Valeria Paz Arana</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
